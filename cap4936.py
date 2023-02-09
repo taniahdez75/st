@@ -47,13 +47,6 @@ for i in range(100):
 text = st.text_area("Type something", "Write here")
 st.write("You wrote: ", text)
 
-# Date picker widget
-date = st.date_input("Pick a date", time.time())
-st.write("The selected date is: ", date)
-
-# Time picker widget
-time = st.time_input("Pick a time", datetime.time(12, 0))
-st.write("The selected time is: ", time)
 
 # Button widget
 if st.button("Generate random number"):
